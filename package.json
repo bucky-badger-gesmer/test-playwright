@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test-workflow": "playwright test --project=test-workflow"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
