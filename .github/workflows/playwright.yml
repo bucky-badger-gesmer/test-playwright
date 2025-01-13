@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         shardIndex: [1, 2, 3, 4]
-        shardTotla: [4]
+        shardTotal: [4]
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
